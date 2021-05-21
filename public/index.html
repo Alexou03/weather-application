@@ -29,7 +29,87 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
+    <div class="current-temperature">
+      <p id="city">Paris</p>
+      <div>
+        <div id="icon">
+          <i class="fas fa-cloud-sun-rain fa-3x"></i>
+        </div>
+        <span id="temp">18°C / 42°F</span>
+        <span id="time" class="small"></span>
+        <span id="wind" class="small"></span>
+        <span id="humidity" class="small"></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="bottom d-flex align-items-stretch">
+    <div class="container p-4 d-flex align-items-stretch">
+      <div class="row d-flex align-items-stretch" id="forcast-container">
+        <div class="col-sm">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Monday</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Jan 21</h6>
+              <p class="card-text">
+                9°C - 18°C <i class="fas fa-cloud-sun-rain"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Tuesday</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Jan 22</h6>
+              <p class="card-text">
+                9°C - 18°C <i class="fas fa-cloud-sun-rain"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Wednesday</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Jan 23</h6>
+              <p class="card-text">
+                9°C - 18°C <i class="fas fa-cloud-sun-rain"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Thursday</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Jan 24</h6>
+              <p class="card-text">
+                9°C - 18°C <i class="fas fa-cloud-sun-rain"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title">Friday</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Jan 25</h6>
+              <p class="card-text">
+                9°C - 18°C <i class="fas fa-cloud-sun-rain"></i>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
+!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
 
