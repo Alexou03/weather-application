@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import axios from 'axios';
+import Footer from "./footer";
 
 const apiEndpoint = 'https://api.openweathermap.org/data/2.5/weather';
 const apiKey = '5779b9efe682cbd7772ff1fe36bcdf5f';
@@ -52,8 +53,10 @@ function App() {
         </div>
       </div>
       <div className='bottom'></div>
+      <Footer/>
     </div>
   );
 }
 
 export default App;
+
